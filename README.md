@@ -1,4 +1,3 @@
 # Data backup and restore
----
 
-In my research I have found [this](PostgresDB.md) and documented it. I tried it on my computer but had troubles with postgresql installation. I still uploaded this file but I may change it in future when I fully test it.
+[Here](PostgresqlDB.md) are instructions for creating backups of ManageIQ database and restoring it to another machine. I tried it on my computer and it is working. The instructions are only for backup of `vmdb_development` database for ManageIQ.
