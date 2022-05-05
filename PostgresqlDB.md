@@ -44,14 +44,10 @@ ManageIQ uses PostgreSQL Database. So while dealing with ManageIQ database we’
 
 `pg_restore -d vmdb_development "path/to/development.dump"`
 
-6. Change directory to `/var/www/miq/vmdb/tools`
+6. Run `fix_auth.rb`
 
 ```yaml
-vmdb  #executing "vmdb" will take you to "/var/www/miq/vmdb/"
-
-cd tools
-
-bundle exec fix_auth.rb --v2 --invalid bogus
+bundle exec tools/fix_auth.rb --v2 vmdb_development
 ```
 
 7. Start evm service
