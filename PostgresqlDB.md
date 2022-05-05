@@ -46,9 +46,7 @@ ManageIQ uses PostgreSQL Database. So while dealing with ManageIQ database we’
 
 6. Run `fix_auth.rb`
 
-```yaml
-bundle exec tools/fix_auth.rb --v2 vmdb_development
-```
+`bundle exec tools/fix_auth.rb --v2 vmdb_development`
 
 7. Start evm service
 
